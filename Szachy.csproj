@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Figura.cs" />
-    <Compile Include="Figure.cs" />
     <Compile Include="Figury\Goniec.cs" />
     <Compile Include="Figury\Krol.cs" />
     <Compile Include="Figury\Pionek.cs" />

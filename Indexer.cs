@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Szachy;
 
 namespace ChessMR
 {
     class Indexer
     {
-        public Figure[,] Figures = new Figure[8, 8];
-        public Figure this[string wyborpozycji]
+        public Figura[,] Figures = new Figura[8, 8];
+        public Figura this[string wyborpozycji]
         {
             get
             {

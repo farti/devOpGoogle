@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Szachy.Figury;
 using Szachy;
+using ChessMR;
 
 namespace Szachy
 {
@@ -39,11 +40,11 @@ namespace Szachy
                     Szachownica docelowaPozycja = new Szachownica(nowaPozycja );
                     if (krol.CzyMozeRuszyc(docelowaPozycja))
                         {
-                        Console.WriteLine("Ruch z: " + wyborPozycji + " na " + nowaPozycja + "  jest OK");
+                        Zdarzenie.write("Ruch z: " + wyborPozycji + " na " + nowaPozycja + "  jest OK");
                         }
                     else
                         {
-                        Console.WriteLine("Ruch z: " + wyborPozycji + " na " + nowaPozycja + "  jest ZABRONIONY");
+                        Zdarzenie.write("Ruch z: " + wyborPozycji + " na " + nowaPozycja + "  jest ZABRONIONY");
                         }
                     break;
 

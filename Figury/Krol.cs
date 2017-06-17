@@ -13,7 +13,7 @@ namespace Szachy.Figury
 
         // metoda spradzająca możliwość ruchu
 
-        public bool CzyMozeRuszyc (Szachownica NastepnaPozycja )
+        public override bool CzyMozeRuszyc (Szachownica NastepnaPozycja )
         {
             if (NastepnaPozycja.WspolrzednaX < 1 || NastepnaPozycja.WspolrzednaX > 8 || NastepnaPozycja.WspolrzednaY < 1 || NastepnaPozycja.WspolrzednaX > 8)
                 return false;

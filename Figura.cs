@@ -37,6 +37,7 @@ namespace Szachy
             this.AktualnaPozycja = pozycja;
         }
 
+        public abstract bool CzyMozeRuszyc(Szachownica NastepnaPozycja);
 
 
     }

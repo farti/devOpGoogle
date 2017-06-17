@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Figura.cs" />
+    <Compile Include="Figure.cs" />
     <Compile Include="Figury\Goniec.cs" />
     <Compile Include="Figury\Krol.cs" />
     <Compile Include="Figury\Pionek.cs" />
     <Compile Include="Figury\Wieza.cs" />
+    <Compile Include="Indexer.cs" />
     <Compile Include="Szachownica.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
